@@ -1,2 +1,2 @@
 require 'rspec'
-require 'poker.rb'
+require 'game.rb'
