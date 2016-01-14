@@ -23,11 +23,8 @@ describe Deck do
   describe "#deal" do
     before(:each) { deck.deal(1) }
 
-    it "takes the top cards from the deck" do
+    it "takes the top card from the deck" do
       expect ( deck.cards[0].value ).to eq( "2" )
-    end
-
-    it "takes the top cards from the deck" do
       expect ( deck.cards.size ).to eq( 51 )
     end
 
